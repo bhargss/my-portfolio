@@ -1,0 +1,85 @@
+.logo, h1 {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #F39422; 
+}
+
+.blue-container {
+    background-color: #293A80;
+}
+
+.nav-link {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.nav-link:hover {
+    color: #F39422;
+} 
+
+.lead, .text-light, .attribution-text {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.9rem;
+}
+
+@media (max-width:768px) {
+    h1, .lead {
+        text-align: center;
+    }
+}
+
+.orange-container {
+    background-color: #F39422;
+}
+
+h2, .card-title {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #293A80;
+}
+
+.card {
+    box-shadow: 3px 4px 0 1px #293A80;
+    border: 1px solid #293A80;
+    --bs-title-spacer-y: 0;
+}
+
+.card-img-top {
+    height: 12rem;
+}
+
+.card-text,.text-dark {
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.9rem;
+}
+
+.btn {
+    background-color: #293A80;
+    color: white;
+}
+
+.btn:hover {
+    border: 1px solid #293A80
+}
+
+.orange-h2 {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #F39422;
+}
+
+.attribution-text {
+    font-size: 0.7rem;
+    text-align: center;
+}
