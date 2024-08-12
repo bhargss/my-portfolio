@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+<!-- Nav menu --> 
+    <div class="container-fluid border-bottom border-light grey-container">
+        <div class="container justify-content-around px-3">
+            <header class="d-flex flex-wrap justify-content-xl-between justify-content-around py-3">
+            <a href="..." class="d-flex align-items-center mb-3 mb-md-0 me-md-3 link-body-emphasis text-decoration-none">
+                <span class="fs-3 logo">Bhar.</span>
+            </a>
+        
+            <ul class="nav justify-content-center">
+                <li class="nav-item"><a href="#about" class="nav-link active" aria-current="page">About me</a></li>
+                <li class="nav-item"><a href="#works" class="nav-link">Portfolio</a></li>
+                <li class="nav-item "><a href="#hobbies" class="nav-link">Hobbies</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            </header>   
+        </div>
+    </div>
+
+<!-- Hero -->
+ <section class="container-fluid black-container" id="about">
+    <div class="container px-4 py-5 my-0">
+        <div class="row flex-lg-row-reverse justify-content-center g-5 py-5">
+            <div class="col-10 col-sm-8 col-lg-6">
+                <img src="./images/Female Web Developer.png"  class="d-block mx-lg-auto img-fluid" alt="Female Web developer" loading="lazy">
+                <p class="attribution-text mt-4">(Real footage of me trying to find that one class in Bootstrap)</p>
+            </div>
+            <div class="col-lg-6">
+                <h1 class="display-5 fw-bold lh-2 mb-4">Welcome, hooman!</h1>
+                <p class="lead fs-6 pe-lg-5">I am Bhar, an aspiring web developer.
+                    <br><br>
+                I am that annoying kid in class who is always asking questions because I am curious.
+                I function better with snacks and naps, and I love to go into the rabbit hole of Reddit and Youtube.<br><br>
+                You can always find me hyperfocused on my interests and yapping about all of my interests mentioned below (including my one true love, lingustics!)
+                <br><br>Check out my coding projects below and thanks for dropping by :)
+            </p>
+            </div>
+        </div>
+    </div>
+</section>
+    
+<!-- Works-->
+<section class="container-fluid grey-container" id="works">
+    <div class="container py-5">
+        <!-- Title -->
+        <div class="row justify-content-center">
+            <h2 class="display-5 fw-bold lh-2 text-center">My Works</h2>
+        </div>
+        <!-- cards -->
+         <div class="container d-flex flex-wrap justify-content-center my-5">
+            <div class="col-lg-3 col-md-5 col-sm-10 me-lg-auto me-md-2 mb-3">
+                <div class="card me-3">
+                    <img src="./images/Meme poster using CSS.png" class="card-img-top px-3 pt-3 object-fit-cover" alt="Meme-poster">
+                    <div class="card-body">
+                        <h5 class="card-title">Meme</h5>
+                        <p class="card-text">Two of my faves- memes and coding them using a programming language I love</p>
+                        <a href="https://bhargss.github.io/meme-poster/" class="btn">Open project</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-5 col-sm-10 me-lg-auto me-md-2 mb-3">
+                <div class="card me-3">
+                    <img src="./images/Pricing table using flexbox.png" class="card-img-top px-3 pt-3 object-fit-cover" alt="Pricing-table">
+                    <div class="card-body">
+                        <h5 class="card-title">Flex</h5>
+                        <p class="card-text">No product, just flexing my ✨flexbox skills✨ ** This is a CSS project, not JS</p>
+                        <a href="https://bhargss.github.io/flexbox-pricing-table/" class="btn">Open project</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-lg-3 col-md-5 col-sm-10 me-lg-auto me-md-2 mb-3">
+                <div class="card me-3">
+                    <img src="./images/Mondrian painting using Grid.png" class="card-img-top px-3 pt-3 object-fit-cover" alt="Mondrian-painting">
+                    <div class="card-body">
+                        <h5 class="card-title">Artistic</h5>
+                        <p class="card-text">I love Mondrian's paintings, and I was more than happy to recreate this using Grid</p>
+                
+                        <a href="https://bhargss.github.io/mondrian-grid/" class="btn">Open project</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-lg-3 col-md-5 col-sm-10 me-lg-auto me-md-2 mb-3">
+                <div class="card me-3">
+                    <img src="./images/TinDog project.png" class="card-img-top px-3 pt-3 object-fit-cover" alt="TinDog">
+                    <div class="card-body">
+                        <h5 class="card-title">Bootstrap</h5>
+                        <p class="card-text">Forget humans, your favourite pet now has Tinder to meet their favourites.</p>
+                        <a href="https://bhargss.github.io/tindog-bootstrap/" class="btn">Open project</a>
+                    </div>
+                </div>
+            </div>
+
+              <!-- Cards over -->  <!-- Add links to the projects on GH -->
+         </div>
+    </div>
+</section>
+<!-- Hobbies -->
+ <section class="container-fluid black-container" id="hobbies">
+    <div class="container py-5">
+        <!-- Title -->
+        <div class="row justify-content-center">
+            <h2 class="display-5 fw-bold lh-2 text-center mb-3">Hobbies and Interests</h2>
+        </div>
+        <!-- icons -->
+        <div class="container justify-content-center mt-5">
+            <div class="row gy-5">
+                <div class="col-lg-3 col-md-6 col-sm-12 text-center">
+                    <img src="./images/Art icon.png" class="img-fluid" alt="palatte" />
+                    <p class="pt-4 text-light">Art</p>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12 text-center">
+                    <img src="./images/Writing icon.png" class="img-fluid" alt="Writing" />
+                    <p class="pt-4 text-light">Writing</p>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12 text-center">
+                    <img src="./images/Code icon.png" class="img-fluid" alt="code" />
+                    <p class="pt-4 text-light">Web Development</p>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12 text-center">
+                    <img src="./images/Design icon.png" class="img-fluid" alt="Design" />
+                    <p class="pt-4 text-light">Design</p>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12 text-center">
+                    <img src="./images/Camera icon.png" class="img-fluid" alt="Camera" />
+                    <p class="pt-4 text-light">Photography</p>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12 text-center">
+                    <img src="./images/Book icon.png" class="img-fluid" alt="Book" />
+                    <p class="pt-4 text-light">Books</p>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12 text-center">
+                    <img src="./images/Sewing icon.png" class="img-fluid" alt="Sewing" />
+                    <p class="pt-4 text-light">Sewing</p>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12 text-center">
+                    <img src="./images/Cooking icon.png" class="img-fluid mx-auto" alt="Cooking" />
+                    <p class="pt-4 text-light">Cooking</p>
+                </div>
+            </div>
+        </div>
+ </section>
+<!-- Contact -->
+ <section class="container-fluid grey-container" id="contact">
+    <div class="container py-5">
+        <!-- Title -->
+        <div class="row justify-content-center">
+            <h2 class="display-5 fw-bold lh-2 text-center mb-3">Contact Me</h2>
+        </div>
+        <!-- icons -->
+        <div class="container">
+            <div class="row justify-content-center mt-5">
+                <div class="col-lg-3 col-md-6 col-sm-12 text-center mb-sm-2">
+                    <a href="mailto:bhargavii.g@outlook.com">
+                        <img src="./images/Email icon.png" class="img-fluid" alt="Email" />
+                    </a>
+                    
+                    <p class="pt-4 text-dark">Email</p>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12 text-center">
+                    <a href="https://github.com/bhargss">
+                        <img src="./images/Github icon.png" class="img-fluid" alt="Github" />
+                    </a>
+                    <p class="pt-4 text-dark">GitHub</p>
+                </div>
+            </div>
+        </div>      
+ </section>
+<!-- Footer -->
+ <footer class="container-fluid">
+    <div class=" d-flex flex-column">
+        <p class="text-light text-center pt-2 my-0">© 2024. Created by Bhargavi.</p> 
+        <p class="attribution-text">Icons by Google, Freepik,Pixel perfect, Story Set, Icon home, Bharat Icons, KiranShastry, RomStu and surang</p>
+    </div>
+ </footer>
+</body>
+</html>
+<!-- add links to everything -->

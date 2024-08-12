@@ -1,0 +1,118 @@
+:root {
+    --dark-blue: #30475E;
+    --light-crimson: #F05454;
+    --light-black: #222831;
+    --light-grey: #E8E8E8;
+}
+
+.logo, h1 {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--light-crimson); 
+}
+
+.black-container {
+    background-color: var(--light-black);
+}
+
+#about {
+    background-color: var(--light-black);
+}
+
+#about img {
+    height: 20rem;
+}
+
+.nav-link {
+    color: var(--dark-blue);
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.nav-link:hover {
+    color: var(--light-crimson);
+} 
+
+.lead, .text-light, .attribution-text {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.9rem;
+}
+
+@media (max-width:768px) {
+    h1, .lead {
+        text-align: center;
+    }
+}
+
+.grey-container {
+    background-color: var(--light-grey);
+}
+
+h2, .card-title {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--dark-blue);
+}
+
+#works h2 {
+    color: var(--light-crimson)
+}
+
+.card {
+    box-shadow: 3px 4px 0 1px var(--dark-blue);
+    border: 1px solid var(--dark-blue);
+    --bs-title-spacer-y: 0;
+}
+
+.card-img-top {
+    height: 12rem;
+}
+
+.card-text,.text-dark {
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.9rem;
+}
+
+.btn {
+    background-color: transparent;
+    color: var(--dark-blue);
+    border: 1px solid var(--dark-blue);
+}
+
+.btn:hover {
+    border: 1px solid var(--light-crimson);
+    color: var(--light-crimson);
+}
+
+#hobbies h2 {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--light-grey);
+}
+
+footer {
+    background-color: var(--light-black);
+}
+
+.attribution-text {
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+.card-body > a {
+    font-size: 0.9rem;
+}
+
+.img-fluid {
+    height: 3rem;
+}
